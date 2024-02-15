@@ -1,0 +1,26 @@
+2024-02-13 10:40:20.222 +02:00 [INF] Now listening on: https://localhost:7082
+2024-02-13 10:40:20.255 +02:00 [INF] Now listening on: http://localhost:5282
+2024-02-13 10:40:20.257 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-13 10:40:20.258 +02:00 [INF] Hosting environment: Development
+2024-02-13 10:40:20.259 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-13 10:40:26.747 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - null null
+2024-02-13 10:40:26.933 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - 200 null text/html;charset=utf-8 191.1314ms
+2024-02-13 10:40:26.940 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-13 10:40:26.948 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 7.7178ms
+2024-02-13 10:40:26.952 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - null null
+2024-02-13 10:40:26.988 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.6591ms
+2024-02-13 10:40:27.037 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - null null
+2024-02-13 10:40:27.097 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 60.5377ms
+2024-02-13 10:40:31.561 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/WeatherForecast - null null
+2024-02-13 10:40:31.568 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.WeatherForecastController.Get (DemoLog)'
+2024-02-13 10:40:31.578 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DemoLog.WeatherForecast] Get() on controller DemoLog.Controllers.WeatherForecastController (DemoLog).
+2024-02-13 10:40:31.581 +02:00 [INF] Start Ation Get info
+2024-02-13 10:40:31.584 +02:00 [INF] print data [{"Date":"2024-02-14","TemperatureC":22,"TemperatureF":71,"Summary":"Hot","$type":"WeatherForecast"},{"Date":"2024-02-15","TemperatureC":-7,"TemperatureF":20,"Summary":"Chilly","$type":"WeatherForecast"},{"Date":"2024-02-16","TemperatureC":30,"TemperatureF":85,"Summary":"Warm","$type":"WeatherForecast"},{"Date":"2024-02-17","TemperatureC":32,"TemperatureF":89,"Summary":"Mild","$type":"WeatherForecast"},{"Date":"2024-02-18","TemperatureC":9,"TemperatureF":48,"Summary":"Scorching","$type":"WeatherForecast"}]
+2024-02-13 10:40:31.596 +02:00 [INF] print data 15
+2024-02-13 10:40:31.597 +02:00 [WRN] Start Ation Get warrinig 
+2024-02-13 10:40:31.597 +02:00 [ERR] Start Ation Get error
+2024-02-13 10:40:31.598 +02:00 [FTL] Start Ation Get critical 
+2024-02-13 10:40:31.602 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DemoLog.WeatherForecast, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-13 10:40:31.612 +02:00 [INF] Executed action DemoLog.Controllers.WeatherForecastController.Get (DemoLog) in 31.4385ms
+2024-02-13 10:40:31.613 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.WeatherForecastController.Get (DemoLog)'
+2024-02-13 10:40:31.615 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/WeatherForecast - 200 null application/json; charset=utf-8 54.7389ms

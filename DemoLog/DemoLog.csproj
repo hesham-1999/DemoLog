@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Upload\Files\6f45df63-2b3f-4d71-81b0-80360421bac2.jpg" />
+    <Content Remove="wwwroot\Upload\Files\bbed5886-d2a9-486b-88b0-9910eaf184a1.xml" />
+    <Content Remove="wwwroot\Upload\Files\dcc3a5f3-1ae9-4eef-b561-1c84cc315006.jpg" />
+    <Content Remove="wwwroot\Upload\Files\e1fc2b4e-12b7-4bc8-9d94-bd37dba376e5.png" />
+    <Content Remove="wwwroot\Upload\Files\fd9e6b5f-8ab4-41b7-9d77-1293e8733646.mp4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="8.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Upload\Files\6f45df63-2b3f-4d71-81b0-80360421bac2.jpg" />
+    <None Include="wwwroot\Upload\Files\bbed5886-d2a9-486b-88b0-9910eaf184a1.xml" />
+    <None Include="wwwroot\Upload\Files\dcc3a5f3-1ae9-4eef-b561-1c84cc315006.jpg" />
+    <None Include="wwwroot\Upload\Files\e1fc2b4e-12b7-4bc8-9d94-bd37dba376e5.png" />
+    <None Include="wwwroot\Upload\Files\fd9e6b5f-8ab4-41b7-9d77-1293e8733646.mp4" />
+  </ItemGroup>
+
+</Project>

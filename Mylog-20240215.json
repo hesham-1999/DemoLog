@@ -1,0 +1,1015 @@
+2024-02-15 09:30:24.970 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 09:30:24.988 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger - null null
+2024-02-15 09:30:25.003 +02:00 [INF] Hosting environment: Development
+2024-02-15 09:30:25.003 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 09:30:25.637 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 09:30:25.647 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger - 301 null null 664.412ms
+2024-02-15 09:30:25.690 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 51.9239ms
+2024-02-15 09:30:25.693 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 09:30:25.693 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/swagger-ui-standalone-preset.js - null null
+2024-02-15 09:30:25.697 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/swagger-ui-bundle.js - null null
+2024-02-15 09:30:25.698 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/swagger-ui.css - null null
+2024-02-15 09:30:25.701 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 09:30:25.705 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 12.189ms
+2024-02-15 09:30:25.727 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-02-15 09:30:25.729 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/swagger-ui.css - 200 143943 text/css 31.1375ms
+2024-02-15 09:30:25.729 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-02-15 09:30:25.734 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-02-15 09:30:25.735 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 41.7759ms
+2024-02-15 09:30:25.750 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 54.8183ms
+2024-02-15 09:30:27.755 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 2055.1321ms
+2024-02-15 09:30:27.796 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 09:30:27.878 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.5921ms
+2024-02-15 09:46:10.660 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 09:46:10.675 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 09:46:10.687 +02:00 [INF] Hosting environment: Development
+2024-02-15 09:46:10.687 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 09:46:10.847 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 176.1488ms
+2024-02-15 09:46:10.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 09:46:10.852 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 09:46:10.862 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 7.9228ms
+2024-02-15 09:46:10.894 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.2133ms
+2024-02-15 09:46:11.032 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 09:46:11.109 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.6721ms
+2024-02-15 09:47:19.356 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44321/api/Order - application/json 221
+2024-02-15 09:47:19.366 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.Create (DemoLog)'
+2024-02-15 09:47:19.388 +02:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(DemoLog.Controllers.Request.OrderRequest) on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 09:48:41.713 +02:00 [INF] Executing OkObjectResult, writing value of type 'DemoLog.Dmoain.OrderAgg.Order'.
+2024-02-15 09:48:41.738 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.Create (DemoLog) in 82336.0731ms
+2024-02-15 09:48:41.738 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.Create (DemoLog)'
+2024-02-15 09:48:41.739 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44321/api/Order - 200 null application/json; charset=utf-8 82371.9854ms
+2024-02-15 10:10:02.273 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:10:02.294 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:10:02.512 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:10:02.512 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:10:40.739 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:10:40.761 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:10:59.203 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:10:59.224 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:10:59.456 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-02-15 10:10:59.469 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-02-15 10:10:59.470 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-02-15 10:10:59.512 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-02-15 10:10:59.513 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-02-15 10:10:59.514 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-02-15 10:10:59.517 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-02-15 10:10:59.524 +02:00 [INF] Applying migration '20240215081002_init'.
+2024-02-15 10:10:59.549 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Orders] (
+    [Id] int NOT NULL IDENTITY,
+    [Total] decimal(18,2) NOT NULL,
+    [CratedAt] datetime2 NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY ([Id])
+);
+2024-02-15 10:10:59.550 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [orderItem] (
+    [Id] int NOT NULL IDENTITY,
+    [Price] decimal(18,2) NOT NULL,
+    [OrderId] int NOT NULL,
+    [CratedAt] datetime2 NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_orderItem] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_orderItem_Orders_OrderId] FOREIGN KEY ([OrderId]) REFERENCES [Orders] ([Id]) ON DELETE CASCADE
+);
+2024-02-15 10:10:59.553 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_orderItem_OrderId] ON [orderItem] ([OrderId]);
+2024-02-15 10:10:59.554 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240215081002_init', N'8.0.2');
+2024-02-15 10:11:44.719 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 10:11:44.732 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 10:11:44.745 +02:00 [INF] Hosting environment: Development
+2024-02-15 10:11:44.745 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 10:11:44.901 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 10:11:44.901 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 10:11:44.901 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 172.4852ms
+2024-02-15 10:11:44.908 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 2.8415ms
+2024-02-15 10:11:44.933 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.4994ms
+2024-02-15 10:11:44.972 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 10:11:45.063 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.1604ms
+2024-02-15 10:12:38.402 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44321/api/Order - application/json 219
+2024-02-15 10:12:38.409 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.Create (DemoLog)'
+2024-02-15 10:12:38.425 +02:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DemoLog.Controllers.Request.OrderRequest) on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:12:38.478 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.Create (DemoLog) in 51.5197ms
+2024-02-15 10:12:38.480 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.Create (DemoLog)'
+2024-02-15 10:12:38.483 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'DemoLog.Dmoain.IOrderRepository' while attempting to activate 'DemoLog.Controllers.OrderController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 10:12:38.498 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 95.2769ms
+2024-02-15 10:13:38.566 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 10:13:38.580 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 10:13:38.594 +02:00 [INF] Hosting environment: Development
+2024-02-15 10:13:38.595 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 10:13:38.778 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 10:13:38.781 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 10:13:38.778 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 201.4115ms
+2024-02-15 10:13:38.787 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 4.8642ms
+2024-02-15 10:13:38.826 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.6103ms
+2024-02-15 10:13:38.871 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 10:13:38.994 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 122.309ms
+2024-02-15 10:14:31.437 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44321/api/Order - application/json 166
+2024-02-15 10:14:31.443 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.Create (DemoLog)'
+2024-02-15 10:14:31.458 +02:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DemoLog.Controllers.Request.OrderRequest) on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:14:31.933 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:14:31.934 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:14:32.453 +02:00 [INF] Executed DbCommand (50ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CratedAt], [IsDeleted], [Name], [Total])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-02-15 10:14:32.494 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [orderItem] USING (
+VALUES (@p4, @p5, @p6, @p7, @p8, 0),
+(@p9, @p10, @p11, @p12, @p13, 1)) AS i ([CratedAt], [IsDeleted], [Name], [OrderId], [Price], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CratedAt], [IsDeleted], [Name], [OrderId], [Price])
+VALUES (i.[CratedAt], i.[IsDeleted], i.[Name], i.[OrderId], i.[Price])
+OUTPUT INSERTED.[Id], i._Position;
+2024-02-15 10:14:32.513 +02:00 [INF] Executing OkObjectResult, writing value of type 'DemoLog.Dmoain.OrderAgg.Order'.
+2024-02-15 10:14:32.527 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.Create (DemoLog) in 1066.6854ms
+2024-02-15 10:14:32.528 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.Create (DemoLog)'
+2024-02-15 10:14:32.533 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Orderitems.Order.Orderitems.Order.Orderitems.Order.Orderitems.Order.Orderitems.Order.Orderitems.Order.Orderitems.Order.Orderitems.Order.Orderitems.Order.Orderitems.Order.Orderitems.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 10:14:32.557 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 1119.8503ms
+2024-02-15 10:15:28.278 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 10:15:28.291 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 10:15:28.303 +02:00 [INF] Hosting environment: Development
+2024-02-15 10:15:28.303 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 10:15:28.440 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 152.592ms
+2024-02-15 10:15:28.443 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 10:15:28.444 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 10:15:28.449 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.0767ms
+2024-02-15 10:15:28.472 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.2071ms
+2024-02-15 10:15:28.512 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 10:15:28.608 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.7809ms
+2024-02-15 10:15:42.172 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44321/api/Order - application/json 166
+2024-02-15 10:15:42.179 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.Create (DemoLog)'
+2024-02-15 10:15:42.194 +02:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DemoLog.Controllers.Request.OrderRequest) on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:15:42.675 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:15:42.675 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:15:43.165 +02:00 [INF] Executed DbCommand (30ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CratedAt], [IsDeleted], [Name], [Total])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-02-15 10:15:43.204 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [orderItem] USING (
+VALUES (@p4, @p5, @p6, @p7, @p8, 0),
+(@p9, @p10, @p11, @p12, @p13, 1)) AS i ([CratedAt], [IsDeleted], [Name], [OrderId], [Price], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CratedAt], [IsDeleted], [Name], [OrderId], [Price])
+VALUES (i.[CratedAt], i.[IsDeleted], i.[Name], i.[OrderId], i.[Price])
+OUTPUT INSERTED.[Id], i._Position;
+2024-02-15 10:15:43.224 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-15 10:15:43.228 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.Create (DemoLog) in 1031.0246ms
+2024-02-15 10:15:43.229 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.Create (DemoLog)'
+2024-02-15 10:15:43.236 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44321/api/Order - 200 null text/plain; charset=utf-8 1063.583ms
+2024-02-15 10:16:47.353 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44321/api/Order - application/json 166
+2024-02-15 10:16:47.354 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.Create (DemoLog)'
+2024-02-15 10:16:47.354 +02:00 [INF] Route matched with {action = "Create", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(DemoLog.Controllers.Request.OrderRequest) on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:16:47.396 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CratedAt], [IsDeleted], [Name], [Total])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-02-15 10:16:47.400 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p4='?' (DbType = DateTime2), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [orderItem] USING (
+VALUES (@p4, @p5, @p6, @p7, @p8, 0),
+(@p9, @p10, @p11, @p12, @p13, 1)) AS i ([CratedAt], [IsDeleted], [Name], [OrderId], [Price], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CratedAt], [IsDeleted], [Name], [OrderId], [Price])
+VALUES (i.[CratedAt], i.[IsDeleted], i.[Name], i.[OrderId], i.[Price])
+OUTPUT INSERTED.[Id], i._Position;
+2024-02-15 10:16:47.401 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-15 10:16:47.402 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.Create (DemoLog) in 47.1582ms
+2024-02-15 10:16:47.402 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.Create (DemoLog)'
+2024-02-15 10:16:47.402 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44321/api/Order - 200 null text/plain; charset=utf-8 48.8984ms
+2024-02-15 10:21:45.712 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 10:21:45.726 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 10:21:45.740 +02:00 [INF] Hosting environment: Development
+2024-02-15 10:21:45.740 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 10:21:45.886 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 10:21:45.887 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 10:21:45.887 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 163.912ms
+2024-02-15 10:21:45.890 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.7244ms
+2024-02-15 10:21:45.918 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.0273ms
+2024-02-15 10:21:45.958 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 10:21:46.066 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 108.0574ms
+2024-02-15 10:21:50.764 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 10:21:50.770 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:21:50.782 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:21:51.241 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:21:51.241 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:21:51.859 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 10:21:51.975 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 1190.9685ms
+2024-02-15 10:21:51.976 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:21:51.980 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> OrderResponse
+System.Collections.Generic.List`1[[DemoLog.Dmoain.OrderAgg.Order, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> DemoLog.Controllers.Response.OrderResponse
+   at lambda_method100(Closure, Object, OrderResponse, ResolutionContext)
+   at DemoLog.Controllers.OrderController.getAll() in C:\Users\hesha\source\repos\DemoLog\DemoLog\Controllers\OrderController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 10:21:51.997 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 1233.1117ms
+2024-02-15 10:22:39.883 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 10:22:39.896 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 10:22:39.909 +02:00 [INF] Hosting environment: Development
+2024-02-15 10:22:39.909 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 10:22:40.039 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 145.9956ms
+2024-02-15 10:22:40.042 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 10:22:40.043 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 10:22:40.050 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 5.146ms
+2024-02-15 10:22:40.078 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.1065ms
+2024-02-15 10:22:40.114 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 10:22:40.193 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.0353ms
+2024-02-15 10:22:43.999 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 10:22:44.006 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:22:44.017 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:22:44.461 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:22:44.461 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:22:45.026 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 10:22:45.134 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 1114.6825ms
+2024-02-15 10:22:45.135 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:22:45.141 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> OrderResponse
+System.Collections.Generic.List`1[[DemoLog.Dmoain.OrderAgg.Order, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> DemoLog.Controllers.Response.OrderResponse
+   at lambda_method100(Closure, Object, OrderResponse, ResolutionContext)
+   at DemoLog.Controllers.OrderController.getAll() in C:\Users\hesha\source\repos\DemoLog\DemoLog\Controllers\OrderController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 10:22:45.162 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 1163.0776ms
+2024-02-15 10:23:58.510 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 10:23:58.526 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 10:23:58.542 +02:00 [INF] Hosting environment: Development
+2024-02-15 10:23:58.542 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 10:23:58.693 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 10:23:58.692 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 170.0876ms
+2024-02-15 10:23:58.695 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 10:23:58.699 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.0641ms
+2024-02-15 10:23:58.729 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.4329ms
+2024-02-15 10:23:58.765 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 10:23:58.860 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.9934ms
+2024-02-15 10:24:02.214 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 10:24:02.220 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:02.232 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:24:02.663 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:24:02.663 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:24:03.220 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 10:24:03.326 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 1091.5015ms
+2024-02-15 10:24:03.327 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:03.332 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> OrderResponse
+System.Collections.Generic.List`1[[DemoLog.Dmoain.OrderAgg.Order, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> DemoLog.Controllers.Response.OrderResponse
+   at lambda_method100(Closure, Object, OrderResponse, ResolutionContext)
+   at DemoLog.Controllers.OrderController.getAll() in C:\Users\hesha\source\repos\DemoLog\DemoLog\Controllers\OrderController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 10:24:03.346 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 1132.4159ms
+2024-02-15 10:24:49.182 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 10:24:49.183 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:49.183 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:24:49.209 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 10:24:49.228 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 45.0757ms
+2024-02-15 10:24:49.229 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:49.230 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> OrderResponse
+System.Collections.Generic.List`1[[DemoLog.Dmoain.OrderAgg.Order, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> DemoLog.Controllers.Response.OrderResponse
+   at lambda_method100(Closure, Object, OrderResponse, ResolutionContext)
+   at DemoLog.Controllers.OrderController.getAll() in C:\Users\hesha\source\repos\DemoLog\DemoLog\Controllers\OrderController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 10:24:49.233 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 50.891ms
+2024-02-15 10:24:50.780 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 10:24:50.780 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:50.780 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:24:50.818 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 10:24:50.837 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 57.0946ms
+2024-02-15 10:24:50.838 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:50.839 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> OrderResponse
+System.Collections.Generic.List`1[[DemoLog.Dmoain.OrderAgg.Order, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> DemoLog.Controllers.Response.OrderResponse
+   at lambda_method100(Closure, Object, OrderResponse, ResolutionContext)
+   at DemoLog.Controllers.OrderController.getAll() in C:\Users\hesha\source\repos\DemoLog\DemoLog\Controllers\OrderController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 10:24:50.840 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 61.0731ms
+2024-02-15 10:24:50.980 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 10:24:50.980 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:50.980 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:24:50.984 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 10:24:51.001 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 20.9164ms
+2024-02-15 10:24:51.002 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:51.003 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> OrderResponse
+System.Collections.Generic.List`1[[DemoLog.Dmoain.OrderAgg.Order, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> DemoLog.Controllers.Response.OrderResponse
+   at lambda_method100(Closure, Object, OrderResponse, ResolutionContext)
+   at DemoLog.Controllers.OrderController.getAll() in C:\Users\hesha\source\repos\DemoLog\DemoLog\Controllers\OrderController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 10:24:51.005 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 25.2228ms
+2024-02-15 10:24:51.154 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 10:24:51.155 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:51.155 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:24:51.158 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 10:24:51.178 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 23.0026ms
+2024-02-15 10:24:51.178 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:51.179 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> OrderResponse
+System.Collections.Generic.List`1[[DemoLog.Dmoain.OrderAgg.Order, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> DemoLog.Controllers.Response.OrderResponse
+   at lambda_method100(Closure, Object, OrderResponse, ResolutionContext)
+   at DemoLog.Controllers.OrderController.getAll() in C:\Users\hesha\source\repos\DemoLog\DemoLog\Controllers\OrderController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 10:24:51.181 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 26.9571ms
+2024-02-15 10:24:51.345 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 10:24:51.345 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:51.345 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:24:51.348 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 10:24:51.366 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 21.1082ms
+2024-02-15 10:24:51.367 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:24:51.368 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> OrderResponse
+System.Collections.Generic.List`1[[DemoLog.Dmoain.OrderAgg.Order, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> DemoLog.Controllers.Response.OrderResponse
+   at lambda_method100(Closure, Object, OrderResponse, ResolutionContext)
+   at DemoLog.Controllers.OrderController.getAll() in C:\Users\hesha\source\repos\DemoLog\DemoLog\Controllers\OrderController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 10:24:51.370 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 25.0485ms
+2024-02-15 10:25:09.073 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 10:25:09.087 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 10:25:09.100 +02:00 [INF] Hosting environment: Development
+2024-02-15 10:25:09.100 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 10:25:09.237 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 10:25:09.237 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 154.3503ms
+2024-02-15 10:25:09.242 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 5.2793ms
+2024-02-15 10:25:09.242 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 10:25:09.272 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.8352ms
+2024-02-15 10:25:09.309 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 10:25:09.396 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.1252ms
+2024-02-15 10:25:12.030 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 10:25:12.037 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:25:12.048 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:25:21.715 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:25:21.715 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:25:22.264 +02:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 10:26:03.171 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 51116.9345ms
+2024-02-15 10:26:03.172 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:26:03.176 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> OrderResponse
+System.Collections.Generic.List`1[[DemoLog.Dmoain.OrderAgg.Order, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> DemoLog.Controllers.Response.OrderResponse
+   at lambda_method100(Closure, Object, OrderResponse, ResolutionContext)
+   at DemoLog.Controllers.OrderController.getAll() in C:\Users\hesha\source\repos\DemoLog\DemoLog\Controllers\OrderController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 10:26:03.191 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 51158.0172ms
+2024-02-15 10:27:54.976 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 10:27:54.992 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 10:27:55.006 +02:00 [INF] Hosting environment: Development
+2024-02-15 10:27:55.007 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 10:27:55.149 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 10:27:55.149 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 10:27:55.150 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 161.4376ms
+2024-02-15 10:27:55.152 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.0617ms
+2024-02-15 10:27:55.185 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.2027ms
+2024-02-15 10:27:55.221 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 10:27:55.335 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.2315ms
+2024-02-15 10:28:00.176 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 10:28:00.181 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:28:00.194 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:28:04.682 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:28:04.683 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:28:05.281 +02:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 10:28:10.511 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DemoLog.Controllers.Response.OrderResponse, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-15 10:28:10.542 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 10345.5287ms
+2024-02-15 10:28:10.543 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 10:28:10.555 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 200 null application/json; charset=utf-8 10378.3831ms
+2024-02-15 10:54:25.137 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 10:54:25.146 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 10:54:25.159 +02:00 [INF] Hosting environment: Development
+2024-02-15 10:54:25.159 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 10:54:25.259 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 112.5444ms
+2024-02-15 10:54:25.266 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 10:54:25.269 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 2.4623ms
+2024-02-15 10:54:25.276 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 10:54:25.301 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.7082ms
+2024-02-15 10:54:25.365 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 10:54:25.429 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.3664ms
+2024-02-15 10:54:57.969 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:44321/api/Order?orderid=3 - null null
+2024-02-15 10:54:57.975 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.Delete (DemoLog)'
+2024-02-15 10:54:57.990 +02:00 [INF] Route matched with {action = "Delete", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:54:58.364 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:54:58.364 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:54:58.719 +02:00 [INF] Executed DbCommand (22ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total]
+FROM [Orders] AS [o]
+WHERE [o].[Id] = @__id_0
+2024-02-15 10:54:58.813 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Orders] SET [IsDeleted] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+2024-02-15 10:54:58.822 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-15 10:54:58.824 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.Delete (DemoLog) in 832.4317ms
+2024-02-15 10:54:58.824 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.Delete (DemoLog)'
+2024-02-15 10:54:58.829 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:44321/api/Order?orderid=3 - 200 null text/plain; charset=utf-8 860.2691ms
+2024-02-15 10:57:40.993 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 10:57:41.007 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 10:57:41.020 +02:00 [INF] Hosting environment: Development
+2024-02-15 10:57:41.020 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 10:57:41.168 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 10:57:41.168 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 10:57:41.169 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 164.5753ms
+2024-02-15 10:57:41.172 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.635ms
+2024-02-15 10:57:41.200 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.6686ms
+2024-02-15 10:57:41.236 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 10:57:41.308 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.3811ms
+2024-02-15 10:57:46.395 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:44321/api/Order?orderid=3 - null null
+2024-02-15 10:57:46.403 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.Delete (DemoLog)'
+2024-02-15 10:57:46.421 +02:00 [INF] Route matched with {action = "Delete", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 10:57:46.886 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:57:46.887 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 10:57:47.525 +02:00 [INF] Executed DbCommand (45ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CratedAt], [t].[IsDeleted], [t].[Name], [t].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM (
+    SELECT TOP(1) [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total]
+    FROM [Orders] AS [o]
+    WHERE [o].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [orderItem] AS [o0] ON [t].[Id] = [o0].[OrderId]
+ORDER BY [t].[Id]
+2024-02-15 10:58:11.193 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (DbType = Boolean), @p3='?' (DbType = Int32), @p2='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [orderItem] SET [IsDeleted] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+UPDATE [orderItem] SET [IsDeleted] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2024-02-15 10:58:13.173 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-15 10:58:13.176 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.Delete (DemoLog) in 26751.4913ms
+2024-02-15 10:58:13.177 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.Delete (DemoLog)'
+2024-02-15 10:58:13.183 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:44321/api/Order?orderid=3 - 200 null text/plain; charset=utf-8 26787.0541ms
+2024-02-15 11:57:39.921 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 11:57:39.939 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 11:57:39.954 +02:00 [INF] Hosting environment: Development
+2024-02-15 11:57:39.954 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 11:57:40.634 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 700.7154ms
+2024-02-15 11:57:40.638 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 11:57:40.644 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.1863ms
+2024-02-15 11:57:40.645 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 11:57:40.646 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 11:57:40.647 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 2.0976ms
+2024-02-15 11:57:41.995 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 11:57:42.848 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 852.6632ms
+2024-02-15 11:57:42.849 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 2203.527ms
+2024-02-15 11:57:42.882 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 11:57:42.971 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.9654ms
+2024-02-15 11:57:48.244 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 11:57:48.251 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 11:57:48.268 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 11:57:48.758 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 11:57:48.758 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 11:57:49.425 +02:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 11:57:49.526 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DemoLog.Controllers.Response.OrderResponse, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-15 11:57:49.535 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 1265.0421ms
+2024-02-15 11:57:49.536 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 11:57:49.545 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 200 null application/json; charset=utf-8 1301.2528ms
+2024-02-15 11:58:39.559 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:44321/api/Order - application/json 290
+2024-02-15 11:58:39.560 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.Update (DemoLog)'
+2024-02-15 11:58:39.568 +02:00 [INF] Route matched with {action = "Update", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(DemoLog.Controllers.Request.OrderUpdateRequest) on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 11:58:39.592 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-02-15 11:58:39.605 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.Update (DemoLog) in 36.9513ms
+2024-02-15 11:58:39.605 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.Update (DemoLog)'
+2024-02-15 11:58:39.605 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:44321/api/Order - 400 null application/problem+json; charset=utf-8 46.0874ms
+2024-02-15 11:58:59.729 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:44321/api/Order - application/json 288
+2024-02-15 11:58:59.729 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.Update (DemoLog)'
+2024-02-15 11:58:59.729 +02:00 [INF] Route matched with {action = "Update", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(DemoLog.Controllers.Request.OrderUpdateRequest) on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 11:59:28.875 +02:00 [INF] Executed DbCommand (29ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CratedAt], [t].[IsDeleted], [t].[Name], [t].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM (
+    SELECT TOP(1) [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total]
+    FROM [Orders] AS [o]
+    WHERE [o].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [orderItem] AS [o0] ON [t].[Id] = [o0].[OrderId]
+ORDER BY [t].[Id]
+2024-02-15 11:59:39.900 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.Update (DemoLog) in 40170.7132ms
+2024-02-15 11:59:39.901 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.Update (DemoLog)'
+2024-02-15 11:59:39.904 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderProxy -> OrderUpdateInput
+Castle.Proxies.OrderProxy -> DemoLog.Dmoain.OrderAgg.Input.OrderUpdateInput
+   at lambda_method119(Closure, Object, OrderUpdateInput, ResolutionContext)
+   at DemoLog.Controllers.OrderController.Update(OrderUpdateRequest orderUpdateRequest) in C:\Users\hesha\source\repos\DemoLog\DemoLog\Controllers\OrderController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 11:59:39.918 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 40189.4381ms
+2024-02-15 12:01:45.782 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 12:01:45.794 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 12:01:45.806 +02:00 [INF] Hosting environment: Development
+2024-02-15 12:01:45.807 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 12:01:45.942 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 151.1953ms
+2024-02-15 12:01:45.945 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 12:01:45.946 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 12:01:45.951 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.0697ms
+2024-02-15 12:01:45.976 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.7489ms
+2024-02-15 12:01:46.012 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 12:01:46.098 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.6734ms
+2024-02-15 12:01:55.284 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 12:01:55.290 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 12:01:55.302 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 12:01:55.731 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 12:01:55.732 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 12:01:56.299 +02:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 12:01:56.387 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DemoLog.Controllers.Response.OrderResponse, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-15 12:01:56.397 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 1092.6154ms
+2024-02-15 12:01:56.398 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 12:01:56.408 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 200 null application/json; charset=utf-8 1123.9195ms
+2024-02-15 12:02:18.733 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:44321/api/Order - application/json 291
+2024-02-15 12:02:18.734 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.Update (DemoLog)'
+2024-02-15 12:02:18.742 +02:00 [INF] Route matched with {action = "Update", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(DemoLog.Controllers.Request.OrderUpdateRequest) on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 12:02:42.059 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CratedAt], [t].[IsDeleted], [t].[Name], [t].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM (
+    SELECT TOP(1) [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total]
+    FROM [Orders] AS [o]
+    WHERE [o].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [orderItem] AS [o0] ON [t].[Id] = [o0].[OrderId]
+ORDER BY [t].[Id]
+2024-02-15 12:03:25.769 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.Update (DemoLog) in 67027.2661ms
+2024-02-15 12:03:25.770 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.Update (DemoLog)'
+2024-02-15 12:03:25.772 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+OrderProxy -> OrderUpdateInput
+Castle.Proxies.OrderProxy -> DemoLog.Dmoain.OrderAgg.Input.OrderUpdateInput
+   at lambda_method119(Closure, Object, OrderUpdateInput, ResolutionContext)
+   at DemoLog.Controllers.OrderController.Update(OrderUpdateRequest orderUpdateRequest) in C:\Users\hesha\source\repos\DemoLog\DemoLog\Controllers\OrderController.cs:line 60
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-15 12:03:25.783 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:44321/api/Order - 500 null text/plain; charset=utf-8 67049.6103ms
+2024-02-15 12:06:57.883 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-15 12:06:57.896 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/index.html - null null
+2024-02-15 12:06:57.908 +02:00 [INF] Hosting environment: Development
+2024-02-15 12:06:57.909 +02:00 [INF] Content root path: C:\Users\hesha\source\repos\DemoLog\DemoLog
+2024-02-15 12:06:58.039 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/index.html - 200 null text/html;charset=utf-8 145.8715ms
+2024-02-15 12:06:58.042 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - null null
+2024-02-15 12:06:58.043 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/_vs/browserLink - null null
+2024-02-15 12:06:58.046 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 3.7462ms
+2024-02-15 12:06:58.071 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.4667ms
+2024-02-15 12:06:58.112 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - null null
+2024-02-15 12:06:58.192 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.8828ms
+2024-02-15 12:07:02.306 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 12:07:02.314 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 12:07:02.326 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 12:07:02.760 +02:00 [WRN] No store type was specified for the decimal property 'Total' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 12:07:02.760 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'orderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-02-15 12:07:03.328 +02:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 12:07:03.416 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DemoLog.Controllers.Response.OrderResponse, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-15 12:07:03.427 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 1098.0156ms
+2024-02-15 12:07:03.427 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 12:07:03.435 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 200 null application/json; charset=utf-8 1128.5501ms
+2024-02-15 12:07:30.157 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:44321/api/Order - application/json 296
+2024-02-15 12:07:30.157 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.Update (DemoLog)'
+2024-02-15 12:07:30.165 +02:00 [INF] Route matched with {action = "Update", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(DemoLog.Controllers.Request.OrderUpdateRequest) on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 12:07:41.442 +02:00 [INF] Executed DbCommand (36ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CratedAt], [t].[IsDeleted], [t].[Name], [t].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM (
+    SELECT TOP(1) [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total]
+    FROM [Orders] AS [o]
+    WHERE [o].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [orderItem] AS [o0] ON [t].[Id] = [o0].[OrderId]
+ORDER BY [t].[Id]
+2024-02-15 12:08:09.853 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[CratedAt], [t].[IsDeleted], [t].[Name], [t].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM (
+    SELECT TOP(1) [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total]
+    FROM [Orders] AS [o]
+    WHERE [o].[Id] = @__id_0
+) AS [t]
+LEFT JOIN [orderItem] AS [o0] ON [t].[Id] = [o0].[OrderId]
+ORDER BY [t].[Id]
+2024-02-15 12:09:02.547 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000), @p3='?' (DbType = Int32), @p2='?' (Size = 4000), @p5='?' (DbType = Int32), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Orders] SET [Name] = @p0
+OUTPUT 1
+WHERE [Id] = @p1;
+UPDATE [orderItem] SET [Name] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+UPDATE [orderItem] SET [Name] = @p4
+OUTPUT 1
+WHERE [Id] = @p5;
+2024-02-15 12:09:03.882 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-02-15 12:09:03.883 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.Update (DemoLog) in 93718.1051ms
+2024-02-15 12:09:03.883 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.Update (DemoLog)'
+2024-02-15 12:09:03.884 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:44321/api/Order - 200 null text/plain; charset=utf-8 93727.5913ms
+2024-02-15 12:09:11.229 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44321/api/Order - null null
+2024-02-15 12:09:11.230 +02:00 [INF] Executing endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 12:09:11.233 +02:00 [INF] Route matched with {action = "getAll", controller = "Order"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAll() on controller DemoLog.Controllers.OrderController (DemoLog).
+2024-02-15 12:09:11.271 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[CratedAt], [o].[IsDeleted], [o].[Name], [o].[Total], [o0].[Id], [o0].[CratedAt], [o0].[IsDeleted], [o0].[Name], [o0].[OrderId], [o0].[Price]
+FROM [Orders] AS [o]
+LEFT JOIN [orderItem] AS [o0] ON [o].[Id] = [o0].[OrderId]
+ORDER BY [o].[Id]
+2024-02-15 12:09:13.561 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DemoLog.Controllers.Response.OrderResponse, DemoLog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-02-15 12:09:13.562 +02:00 [INF] Executed action DemoLog.Controllers.OrderController.getAll (DemoLog) in 2329.3858ms
+2024-02-15 12:09:13.563 +02:00 [INF] Executed endpoint 'DemoLog.Controllers.OrderController.getAll (DemoLog)'
+2024-02-15 12:09:13.563 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44321/api/Order - 200 null application/json; charset=utf-8 2334.1445ms
