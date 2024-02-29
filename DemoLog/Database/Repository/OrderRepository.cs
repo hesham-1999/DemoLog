@@ -17,7 +17,7 @@ namespace DemoLog.Database.Repository
         {
            _context.Orders.Add(order);
         }
-        public async Task<Order> Getbyid(int id)
+        public async Task<Order> GetbyId(int id)
         {
             var  order = await _context.Orders.Include(o=>o.Orderitems).FirstOrDefaultAsync(o => o.Id == id);
 

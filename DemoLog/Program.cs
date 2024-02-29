@@ -23,9 +23,13 @@ namespace DemoLog
             options.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("con"))
             );
 
+            builder.Services.AddOutputCache();
+
             builder.Services.AddScoped<IOrderRepository, OrderRepository>();
             builder.Host.UseSerilog(new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).CreateLogger());
             builder.Services.AddAutoMapper(typeof(Program));
+            builder.Services.AddMediatR(conf => conf.RegisterServicesFromAssemblies(typeof(Program).Assembly));
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -39,7 +43,7 @@ namespace DemoLog
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            app.UseOutputCache();
 
             app.MapControllers();
 

@@ -6,7 +6,7 @@ namespace DemoLog.Dmoain
     {
         Task<IEnumerable<Order>> getAllAsyn();
         void Create(Order order);
-         Task<Order> Getbyid(int id);
+         Task<Order> GetbyId(int id);
         Task SaveSchangesAsync();
     }
 }
